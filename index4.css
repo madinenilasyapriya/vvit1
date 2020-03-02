@@ -1,0 +1,24 @@
+#first,#second{
+    width: 40%;
+    background-color: orange;
+}
+.main2{
+    text-align: center;
+    width:100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width:320px) and (max-width:460px){
+    #first,#second{
+        width: 100%;
+        margin: 1% 0%;
+    }  
+}      
+@media (min-device-width:461px) and (max-device-width:780px){
+    #first,#second{
+        display:flex;
+        flex-wrap: wrap;
+    }
+}

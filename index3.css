@@ -1,0 +1,32 @@
+.main{
+    background-color:white;
+    width: 100;
+    /* how to display our content on the screen!! */
+    justify-content:space-around; 
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+/* this is id so we represntesd with the symbol  #*/
+#side1,#side2,#side3{
+    text-align: center;
+    background-color:orangered;
+    width: 40%;
+    margin-bottom: 5%;
+    border-radius: 5% 0%;
+    
+
+    
+}
+#side2{
+    text-align: center;
+    background-color: aqua;
+
+}
+#side3{
+    text-align: centre;
+    background-color:gray ;
+}

@@ -1,0 +1,77 @@
+.main{
+    /* background-color:skyblue; */
+    width: 100;
+    /* how to display our content on the screen!! */
+    justify-content:stretch; 
+
+    
+    /* display:flex; */
+    flex-wrap: wrap;
+    
+
+}
+.logo1{
+    /* background-color: lightgrey; */
+    width: 50%;
+    height:10% ;
+    border: 5px solid black;
+    /* padding: 5px; */
+    margin: 25px; 
+}
+img{border-radius: 300%;}
+/* this is id so we represntesd with the symbol  #*/
+#side1,#side2{
+    background-color: lightgrey;
+    width: 100;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 2px;
+    background-color: chocolate;
+    color: hotpink;
+    border-radius: 5%;
+    text-align: center;
+    background-color:burlywood;
+    margin: 10%;   
+}
+img {
+    background-color: burlywood;
+    width: 150px;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 20px;
+  }
+#side2{
+    text-align: center;
+    background-color:bisque;
+
+}
+#side3{
+    text-align: center;
+    background-color:burlywood;
+    background-color: lightgrey;
+    width: 150px;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 20px;
+}
+#side4{
+    text-align: center;
+    background-color:rgb(22, 63, 61);
+    width: 150px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+@media only screen and (min-width:461px) and (max-width:740px){
+    .main{
+        width:100%;
+    }
+    #side1,#side3{
+        width:100%;  
+        display:flex;
+    }
+}
+
+
+
+

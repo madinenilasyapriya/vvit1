@@ -1,0 +1,22 @@
+{
+    "basics":{
+        "name":"lassihoney",
+        "role":"student",
+        "email":"jknw@gmail.com",
+        "mobile":"1425451545",
+        "education":[
+        {
+            "study":"ssc",
+            "pnct":9.7
+        },
+        {
+            "study":"inter",
+            "pnct":9.5
+        },
+        {
+            "study":"btech",
+            "pnct":98
+        }
+    ]
+    }
+}
